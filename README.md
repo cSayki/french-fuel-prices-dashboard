@@ -71,8 +71,8 @@ The processed tables (about 3 MB of parquet files in `data/processed/`) are incl
 starts straight away. To rebuild them from the raw open data, which means downloading about
 250 MB and takes around a minute, run `make data`. `make run` starts the app and `make test` runs
 a quick headless test of every tab. If `data/processed/` is missing, the app runs the download and
-build scripts by itself the first time it loads. To deploy it on Streamlit Community Cloud, point it
-at `app.py`; no secrets are needed.
+build scripts by itself the first time it loads. It is deployed on Streamlit Community Cloud with Python 3.14,
+pointing at `app.py`; no secrets are needed.
 
 ## How the code is organised
 
@@ -142,7 +142,7 @@ Demo video: https://youtu.be/KKEq2rhbJL4
 
 Repository: https://github.com/cSayki/french-fuel-prices-dashboard
 
-Deployed app: to be added.
+Deployed app: https://french-fuel-prices.streamlit.app/
 
 ## Licences
 
