@@ -34,8 +34,7 @@ scenarios tab lets the user change the Brent price, the excise, VAT and the refi
 see the effect on a yearly fuel bill. The data quality tab explains the cleaning, and the last tab
 sums up the findings and what they mean.
 
-The storyboard is in `docs/storyboard.md` and the script I used for the demo video is in
-`docs/demo_script.md`.
+The storyboard is in `docs/storyboard.md`.
 
 ## Data
 
@@ -69,8 +68,7 @@ streamlit run app.py
 
 The processed tables (about 3 MB of parquet files in `data/processed/`) are included, so the app
 starts straight away. To rebuild them from the raw open data, which means downloading about
-250 MB and takes around a minute, run `make data`. `make run` starts the app and `make test` runs
-a quick headless test of every tab. If `data/processed/` is missing, the app runs the download and
+250 MB and takes around a minute, run `make data`. `make run` starts the app. If `data/processed/` is missing, the app runs the download and
 build scripts by itself the first time it loads. It is deployed on Streamlit Community Cloud with Python 3.14,
 pointing at `app.py`; no secrets are needed.
 
@@ -92,9 +90,8 @@ utils/
 scripts/
   download_data.py         downloads the raw files (skips files already there)
   build_dataset.py         turns the XML into the processed tables
-tests/smoke_test.py        renders every tab with a few tricky filter choices
 data/processed/            processed tables, quality report and map file
-docs/                      storyboard and demo script
+docs/storyboard.md         storyboard of the dashboard
 seeds.json                 cleaning thresholds and random seed
 ```
 
