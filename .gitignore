@@ -1,0 +1,7 @@
+data/raw/
+data/interim/
+__pycache__/
+.venv/
+*.part
+*.zip
+.DS_Store

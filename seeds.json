@@ -1,0 +1,11 @@
+{
+  "first_year": 2019,
+  "last_year": 2026,
+  "random_seed": 42,
+  "price_min_eur_l": 0.50,
+  "price_max_eur_l": 3.50,
+  "max_rel_deviation_from_weekly_median": 0.35,
+  "ffill_max_weeks": 3,
+  "snapshot_days": 30,
+  "map_sample_stations": 4000
+}
