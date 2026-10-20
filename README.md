@@ -136,10 +136,13 @@ regional variations, biofuel incentives and company discounts are not modelled. 
 departments are excluded because their prices are regulated, and Corsica has its own tax rates.
 Finally, the events on the charts give context but are not proof of what caused the changes.
 
-## Still to do before submitting
+## Links
 
-The deployed app URL, the repository link and the link to the demo video still have to be added
-here.
+Demo video: https://youtu.be/KKEq2rhbJL4
+
+Repository: https://github.com/cSayki/french-fuel-prices-dashboard
+
+Deployed app: to be added.
 
 ## Licences
 
